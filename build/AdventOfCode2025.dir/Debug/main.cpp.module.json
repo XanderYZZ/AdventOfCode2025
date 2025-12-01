@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "AdventOfCode2025.dir\\Debug\\main.obj",
+            "outputs": [
+                "C:\\Users\\larns\\OneDrive\\Desktop\\Programming_Projects\\Personal\\C_AND_CPP\\AdventOfCode2025\\build\\AdventOfCode2025.dir\\Debug\\vc143.pdb",
+                "AdventOfCode2025.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}
