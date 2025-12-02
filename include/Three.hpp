@@ -43,8 +43,6 @@ private:
             ll start = std::stoll(start_range);
             ll end = std::stoll(end_range);
 
-            std::cout << start << ", " << end << "\n"; 
-
             for (ll i = start; i <= end; i++) {
                 std::string str = std::to_string(i);
                 ll size = str.size();
@@ -64,11 +62,10 @@ private:
 
                 if (!equal) { continue; }
 
-                std::cout << i << " is equal!\n";
                 sum += i;
             }
 
-            std::this_thread::sleep_for(std::chrono::milliseconds(500));
+            std::this_thread::sleep_for(std::chrono::milliseconds(250));
         }
 
         return sum;
