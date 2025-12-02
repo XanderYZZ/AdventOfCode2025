@@ -1,3 +1,6 @@
+#ifndef ONE_HPP
+#define ONE_HPP
+
 #include <fstream>
 #include <iostream>
 #include <filesystem>
@@ -47,3 +50,5 @@ private:
         return password;
     }
 };
+
+#endif

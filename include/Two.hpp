@@ -1,3 +1,6 @@
+#ifndef TWO_HPP
+#define TWO_HPP
+
 #include <fstream>
 #include <iostream>
 #include <filesystem>
@@ -74,3 +77,5 @@ private:
         return password;
     }
 };
+
+#endif
