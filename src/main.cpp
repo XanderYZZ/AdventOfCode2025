@@ -1,6 +1,6 @@
-#include "Ten.hpp"
+#include "Eleven.hpp"
 
 int main() {
-    Ten solution;
+    Eleven solution;
     solution.Run();
 }
